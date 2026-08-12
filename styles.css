@@ -1115,6 +1115,8 @@ button {
 
 .project-category,
 .project-type {
+    display: block;
+
     margin-bottom: 10px;
 
     color: var(--text-muted);
@@ -1243,6 +1245,8 @@ button {
     border-radius: 12px;
 
     background: rgba(255, 255, 255, 0.012);
+
+    color: inherit;
 
     transition: 0.2s;
 }
