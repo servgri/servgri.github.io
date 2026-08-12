@@ -1097,7 +1097,9 @@ button {
 .project-links {
     display: flex;
 
-    gap: 10px;
+    align-items: center;
+
+    gap: 6px;
 }
 
 .project-links a {
@@ -1111,6 +1113,78 @@ button {
 
 .project-links a:hover {
     color: var(--accent);
+}
+
+.project-icon {
+    display: grid;
+    place-items: center;
+
+    width: 28px;
+    height: 28px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 7px;
+
+    color: var(--text-muted);
+
+    background: rgba(255, 255, 255, 0.03);
+
+    transition:
+        color 0.2s,
+        border-color 0.2s,
+        background 0.2s,
+        transform 0.2s;
+}
+
+.project-icon .icon {
+    display: block;
+
+    width: 14px;
+    height: 14px;
+
+    background: currentColor;
+
+    -webkit-mask: var(--icon) center / contain no-repeat;
+    mask: var(--icon) center / contain no-repeat;
+}
+
+.icon-github {
+    --icon: url("assets/icons/github.svg");
+}
+
+.icon-gitverse {
+    --icon: url("assets/icons/gitverse.svg");
+}
+
+.icon-demo {
+    --icon: url("assets/icons/demo.svg");
+}
+
+.project-icon:hover {
+    color: var(--accent);
+
+    border-color: rgba(245, 200, 75, 0.45);
+
+    background: rgba(245, 200, 75, 0.1);
+
+    transform: translateY(-1px);
+}
+
+.project-icon.is-stub {
+    opacity: 0.42;
+
+    cursor: not-allowed;
+}
+
+.project-icon.is-stub:hover {
+    color: var(--text-muted);
+
+    border-color: var(--border);
+
+    background: rgba(255, 255, 255, 0.03);
+
+    transform: none;
 }
 
 .project-category,
@@ -1264,6 +1338,25 @@ button {
     gap: 15px;
 }
 
+.additional-head {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    margin-bottom: 5px;
+}
+
+.additional-head h3 {
+    margin: 0;
+}
+
+.additional-card .project-links {
+    flex-shrink: 0;
+}
+
 .small-project h4,
 .additional-card h3 {
     margin: 0 0 5px;
@@ -1281,7 +1374,7 @@ button {
 }
 
 .small-project span,
-.additional-card span {
+.additional-tech {
     color: #98a5b5;
 
     font-size: 9px;

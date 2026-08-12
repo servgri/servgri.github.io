@@ -35,6 +35,12 @@
                     });
                 });
             });
+
+            document.querySelectorAll(".project-icon.is-stub").forEach(link => {
+                link.addEventListener("click", event => {
+                    event.preventDefault();
+                });
+            });
         });
     </script>
 </head>
@@ -290,7 +296,15 @@
                         <span class="project-number">01</span>
 
                         <div class="project-links">
-                            <a href="https://github.com/servgri/toxmol" target="_blank" rel="noopener" aria-label="GitHub">GH ↗</a>
+                            <a class="project-icon" href="https://github.com/servgri/toxmol" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                <span class="icon icon-github"></span>
+                            </a>
+                            <a class="project-icon" href="https://gitverse.ru/servgri/toxmol" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                <span class="icon icon-gitverse"></span>
+                            </a>
+                            <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                <span class="icon icon-demo"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -351,7 +365,15 @@
                         <span class="project-number">02</span>
 
                         <div class="project-links">
-                            <a href="https://github.com/servgri/adaptive_interview" target="_blank" rel="noopener">GH ↗</a>
+                            <a class="project-icon" href="https://github.com/servgri/adaptive_interview" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                <span class="icon icon-github"></span>
+                            </a>
+                            <a class="project-icon" href="https://gitverse.ru/servgri/adaptive_interview" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                <span class="icon icon-gitverse"></span>
+                            </a>
+                            <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                <span class="icon icon-demo"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -413,7 +435,15 @@
                         <span class="project-number">03</span>
 
                         <div class="project-links">
-                            <a href="https://github.com/servgri/FraudShield" target="_blank" rel="noopener">GH ↗</a>
+                            <a class="project-icon" href="https://github.com/servgri/FraudShield" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                <span class="icon icon-github"></span>
+                            </a>
+                            <a class="project-icon" href="https://gitverse.ru/servgri/FraudShield" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                <span class="icon icon-gitverse"></span>
+                            </a>
+                            <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                <span class="icon icon-demo"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -475,7 +505,15 @@
                         <span class="project-number">04</span>
 
                         <div class="project-links">
-                            <a href="https://github.com/servgri/book_rec_sys" target="_blank" rel="noopener">GH ↗</a>
+                            <a class="project-icon" href="https://github.com/servgri/book_rec_sys" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                <span class="icon icon-github"></span>
+                            </a>
+                            <a class="project-icon" href="https://gitverse.ru/servgri/book_rec_sys" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                <span class="icon icon-gitverse"></span>
+                            </a>
+                            <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                <span class="icon icon-demo"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -537,7 +575,15 @@
                         <span class="project-number">05</span>
 
                         <div class="project-links">
-                            <a href="https://github.com/servgri/forecast_bot" target="_blank" rel="noopener">GH ↗</a>
+                            <a class="project-icon" href="https://github.com/servgri/forecast_bot" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                <span class="icon icon-github"></span>
+                            </a>
+                            <a class="project-icon" href="https://gitverse.ru/servgri/forecast_bot" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                <span class="icon icon-gitverse"></span>
+                            </a>
+                            <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                <span class="icon icon-demo"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -598,7 +644,15 @@
                         <span class="project-number">06</span>
 
                         <div class="project-links">
-                            <a href="https://github.com/servgri/medcv" target="_blank" rel="noopener">GH ↗</a>
+                            <a class="project-icon" href="https://github.com/servgri/medcv" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                <span class="icon icon-github"></span>
+                            </a>
+                            <a class="project-icon" href="https://gitverse.ru/servgri/medcv" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                <span class="icon icon-gitverse"></span>
+                            </a>
+                            <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                <span class="icon icon-demo"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -784,7 +838,7 @@
         <div class="photo-accent"></div>
 
         <div class="photo-circle">
-            <img src="assets/avatar.png" alt="Сергей">
+            <img src="assets/avatar_1.jpeg" alt="Сергей">
         </div>
     </div>
 
@@ -902,76 +956,133 @@
 
             <div class="additional-grid">
 
-                <a
-                    class="additional-card"
-                    href="https://github.com/servgri/museum_guide"
-                    target="_blank"
-                    rel="noopener"
-                >
+                <article class="additional-card">
                     <div class="additional-number">01</div>
                     <div>
-                        <h3>MuseumGuide</h3>
+                        <div class="additional-head">
+                            <h3>MuseumGuide</h3>
+                            <div class="project-links">
+                                <a class="project-icon" href="https://github.com/servgri/museum_guide" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                    <span class="icon icon-github"></span>
+                                </a>
+                                <a class="project-icon" href="https://gitverse.ru/servgri/museum_guide" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                    <span class="icon icon-gitverse"></span>
+                                </a>
+                                <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                    <span class="icon icon-demo"></span>
+                                </a>
+                            </div>
+                        </div>
                         <p>
                             Семантический поиск и RAG-чат
                             по музейным экспонатам.
                         </p>
-                        <span>Python · Transformers · RAG · Flask · PostgreSQL</span>
+                        <span class="additional-tech">Python · Transformers · RAG · Flask · PostgreSQL</span>
                     </div>
-                </a>
+                </article>
 
 
-                <a
-                    class="additional-card"
-                    href="https://github.com/servgri/ai_recruter"
-                    target="_blank"
-                    rel="noopener"
-                >
+                <article class="additional-card">
                     <div class="additional-number">02</div>
                     <div>
-                        <h3>AI Recruiter</h3>
+                        <div class="additional-head">
+                            <h3>AI Recruiter</h3>
+                            <div class="project-links">
+                                <a class="project-icon" href="https://github.com/servgri/ai_recruter" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                    <span class="icon icon-github"></span>
+                                </a>
+                                <a class="project-icon" href="https://gitverse.ru/servgri/ai_recruter" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                    <span class="icon icon-gitverse"></span>
+                                </a>
+                                <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                    <span class="icon icon-demo"></span>
+                                </a>
+                            </div>
+                        </div>
                         <p>
                             Анализ резюме и matching
                             кандидатов с вакансиями.
                         </p>
-                        <span>Python · SBERT · Embeddings · Flask</span>
+                        <span class="additional-tech">Python · SBERT · Embeddings · Flask</span>
                     </div>
-                </a>
+                </article>
 
 
-                <a
-                    class="additional-card"
-                    href="https://github.com/servgri/autohh"
-                    target="_blank"
-                    rel="noopener"
-                >
+                <article class="additional-card">
                     <div class="additional-number">03</div>
                     <div>
-                        <h3>AutoHH</h3>
+                        <div class="additional-head">
+                            <h3>AutoHH</h3>
+                            <div class="project-links">
+                                <a class="project-icon" href="https://github.com/servgri/autohh" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                    <span class="icon icon-github"></span>
+                                </a>
+                                <a class="project-icon" href="https://gitverse.ru/servgri/autohh" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                    <span class="icon icon-gitverse"></span>
+                                </a>
+                                <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                    <span class="icon icon-demo"></span>
+                                </a>
+                            </div>
+                        </div>
                         <p>
                             Автоматизированный поиск вакансий,
                             оценка и генерация откликов.
                         </p>
-                        <span>Python · n8n · OpenRouter · Telegram</span>
+                        <span class="additional-tech">Python · n8n · OpenRouter · Telegram</span>
                     </div>
-                </a>
+                </article>
 
 
-                <a
-                    class="additional-card"
-                    href="https://github.com/servgri/telebot_downloader"
-                    target="_blank"
-                    rel="noopener"
-                >
+                <article class="additional-card">
                     <div class="additional-number">04</div>
                     <div>
-                        <h3>Telegram Downloader</h3>
+                        <div class="additional-head">
+                            <h3>Telegram Downloader</h3>
+                            <div class="project-links">
+                                <a class="project-icon" href="https://github.com/servgri/telebot_downloader" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                    <span class="icon icon-github"></span>
+                                </a>
+                                <a class="project-icon" href="https://gitverse.ru/servgri/telebot_downloader" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                    <span class="icon icon-gitverse"></span>
+                                </a>
+                                <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                    <span class="icon icon-demo"></span>
+                                </a>
+                            </div>
+                        </div>
                         <p>
                             Desktop-инструмент для автоматической
                             загрузки и сортировки файлов.
                         </p>
-                        <span>Python · Pyrogram · Tkinter</span>
+                        <span class="additional-tech">Python · Pyrogram · Tkinter</span>
                     </div>
-                </a>
+                </article>
+
+
+                <article class="additional-card">
+                    <div class="additional-number">05</div>
+                    <div>
+                        <div class="additional-head">
+                            <h3>ImageMaker</h3>
+                            <div class="project-links">
+                                <a class="project-icon" href="https://github.com/servgri/ImageMaker" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                                    <span class="icon icon-github"></span>
+                                </a>
+                                <a class="project-icon" href="https://gitverse.ru/servgri/ImageMaker" target="_blank" rel="noopener" aria-label="GitVerse" title="GitVerse">
+                                    <span class="icon icon-gitverse"></span>
+                                </a>
+                                <a class="project-icon is-stub" href="#" aria-label="Демо скоро" title="Демо скоро">
+                                    <span class="icon icon-demo"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <p>
+                            Генерация изображений.
+                        </p>
+                        <span class="additional-tech">Python</span>
+                    </div>
+                </article>
 
             </div>
 
@@ -999,6 +1110,11 @@
 
                 <a href="https://github.com/servgri" target="_blank" rel="noopener">
                     GitHub
+                    <span>↗</span>
+                </a>
+
+                <a href="https://gitverse.ru/servgri" target="_blank" rel="noopener">
+                    GitVerse
                     <span>↗</span>
                 </a>
 
