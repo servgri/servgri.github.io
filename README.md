@@ -1,6 +1,4 @@
-# SERVGRI.AI
-
-**Гришин Сергей** · ML Engineer / Python Developer · Казань
+ML Engineer / Python Developer
 
 Открыт к middle-позициям. Делаю прикладные ML/LLM-системы полного цикла: данные → эксперименты → оценка → inference API → БД → Docker. Отдельное направление — ML для химии (QSAR, токсикология, molecular representations).
 
